@@ -1,31 +1,43 @@
-What the Program Does
+How It Works
 
-1.Given an input number
+Step-by-step:
 
-Extract the first, second, second-last, and last digits.
+1.Initialize Tickets
 
-2.Compute:
+A list of predefined ticket strings is stored in an array.
 
-Product of the first and last digits.
+2.Process Each Ticket For each ticket:
 
-Sum of the second and second-last digits.
+-Remove dashes to form a single string of digits.
 
-3.Concatenate the product and sum to form the final decrypted code
+-Convert each character to an integer.
 
-How to Run the Program Prerequisites
+-Calculate the sum and average of the digits.
 
-Java Development Kit (JDK) installed
+-Print the result for that ticket.
 
-Terminal or command line access
+3.Determine Winner
 
-Source file saved as SecretAgentDecryption.java
+Track the ticket with the highest digit average.
 
-Steps
+Print the winning ticket and its average.
 
-1.Compile the program
+🔧 Key Concepts Used
 
-2.Run the program
+-Arrays (String[], int[])
 
-3.Follow the prompt
+-String manipulation (replace, toCharArray)
 
-4.See the result
+-Character-to-integer conversion
+
+-Looping (for-each, for loops)
+
+-Tracking max values using conditionals
+
+🛠 Possible Improvements
+
+-Round average to 2 decimal places for cleaner output.
+
+-Accept ticket inputs from the user instead of hardcoding.
+
+-Validate format of ticket numbers.
